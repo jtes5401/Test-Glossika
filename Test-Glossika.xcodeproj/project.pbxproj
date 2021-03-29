@@ -16,6 +16,8 @@
 		EE9DFF52260C443600AF6583 /* Test_GlossikaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFF51260C443600AF6583 /* Test_GlossikaTests.swift */; };
 		EE9DFF5D260C443600AF6583 /* Test_GlossikaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFF5C260C443600AF6583 /* Test_GlossikaUITests.swift */; };
 		EE9DFF6F260C49A200AF6583 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE9DFF6E260C49A200AF6583 /* SnapKit */; };
+		EE9DFF7F2610E8F000AF6583 /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFF7E2610E8F000AF6583 /* FocusView.swift */; };
+		EE9DFF842611CDFA00AF6583 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DFF832611CDFA00AF6583 /* RecordButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		EE9DFF58260C443600AF6583 /* Test-GlossikaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Test-GlossikaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9DFF5C260C443600AF6583 /* Test_GlossikaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_GlossikaUITests.swift; sourceTree = "<group>"; };
 		EE9DFF5E260C443600AF6583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9DFF7E2610E8F000AF6583 /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		EE9DFF832611CDFA00AF6583 /* RecordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				EE9DFF43260C443600AF6583 /* Assets.xcassets */,
 				EE9DFF45260C443600AF6583 /* LaunchScreen.storyboard */,
 				EE9DFF48260C443600AF6583 /* Info.plist */,
+				EE9DFF7E2610E8F000AF6583 /* FocusView.swift */,
+				EE9DFF832611CDFA00AF6583 /* RecordButton.swift */,
 			);
 			path = "Test-Glossika";
 			sourceTree = "<group>";
@@ -269,6 +275,8 @@
 				EE9DFF3F260C443400AF6583 /* ViewController.swift in Sources */,
 				EE9DFF3B260C443400AF6583 /* AppDelegate.swift in Sources */,
 				EE9DFF3D260C443400AF6583 /* SceneDelegate.swift in Sources */,
+				EE9DFF7F2610E8F000AF6583 /* FocusView.swift in Sources */,
+				EE9DFF842611CDFA00AF6583 /* RecordButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
