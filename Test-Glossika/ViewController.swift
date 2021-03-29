@@ -9,10 +9,9 @@ import UIKit
 import SnapKit
 
 class ViewController: UIViewController {
-
-    let pickerViewController = UIImagePickerController()
-    
     var cameraButton = UIButton(frame: .zero)
+    
+    var timer:Timer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,15 +33,17 @@ class ViewController: UIViewController {
     }
     
     @objc func cameraButtonTouch(sender:UIButton) {
-        pickerViewController.sourceType = .camera
-        pickerViewController.cameraDevice = .front
-        pickerViewController.mediaTypes = ["public.movie"]
-        pickerViewController.cameraCaptureMode = .video
-        pickerViewController.showsCameraControls = true
-        
-        self.present(pickerViewController, animated: false, completion: nil)
+        self.present(CameraViewController(), animated: false, completion: nil)
     }
-
-
 }
 
+
+extension ViewController: UIImagePickerControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        
+    }
+}
